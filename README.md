@@ -1,11 +1,11 @@
-# homebrew-alt-alt-tab
+# homebrew-tap
 
-Homebrew tap for [AltAltTab](https://github.com/joelazar/alt-alt-tab).
+Homebrew tap for Joelazar apps, including [AltAltTab](https://github.com/joelazar/alt-alt-tab).
 
 ## Install
 
 ```bash
-brew tap joelazar/alt-alt-tab
+brew tap joelazar/tap
 brew install --cask alt-alt-tab
 ```
 
@@ -15,7 +15,7 @@ brew install --cask alt-alt-tab
 brew uninstall --cask alt-alt-tab
 ```
 
-## Maintainer release flow
+## Maintainer release flow (AltAltTab)
 
 When you publish a new AltAltTab release:
 
@@ -34,4 +34,4 @@ When you publish a new AltAltTab release:
 ## Notes
 
 - Cask file: `Casks/alt-alt-tab.rb`
-- Tap name is `joelazar/alt-alt-tab` (repo name must be `homebrew-alt-alt-tab`)
+- Tap name is `joelazar/tap` (repo name is `homebrew-tap`)
